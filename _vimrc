@@ -36,6 +36,10 @@ map! <S-CR> <ESC>o
 " 문장 마지막으로 이동"
 map! <A-a> <ESC>A
 map! <A-A> <ESC>A
+
+"클립보드"
+map <C-c> "+y
+map <C-v> "+gP
 	
 
 "괄호 완성 후 입력모드 전환"
