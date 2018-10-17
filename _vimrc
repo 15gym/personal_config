@@ -44,9 +44,8 @@ map <C-v> "+gP
 
 "괄호 완성 후 입력모드 전환"
 map! ( ()<ESC>i
-map! [ []<ESC>i
+map! [<CR> []<ESC>i<CR><ESC>O
 map! {<CR> {}<ESC>i<CR><ESC>O
-map! < <><ESC>i
   
 "새 탭"
 map <C-n> :tabnew<CR>
